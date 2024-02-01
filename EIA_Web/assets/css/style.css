@@ -1,0 +1,365 @@
+/*  (SVG pour les illustration)
+https://stock.adobe.com/fr/search?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bcontent_type%3Aimage%5D=1&order=relevance&safe_search=1&limit=100&search_page=1&search_type=usertyped&acp=&k=website+creator&aco=website+creator&get_facets=0&asset_id=666630452
+https://stock.adobe.com/fr/search?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bcontent_type%3Aimage%5D=1&order=relevance&safe_search=1&limit=100&search_page=1&search_type=usertyped&acp=&k=website+creator&aco=website+creator&get_facets=0&asset_id=492153746
+https://stock.adobe.com/fr/search?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bcontent_type%3Aimage%5D=1&order=relevance&safe_search=1&limit=100&search_page=1&search_type=see-more&acp=&aco=website+creator&serie_id=492153746&get_facets=0&asset_id=457665662
+https://stock.adobe.com/fr/search?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bcontent_type%3Aaudio%5D=0&filters%5Bcontent_type%3Aimage%5D=1&filters%5Binclude_stock_enterprise%5D=0&filters%5Bis_editorial%5D=0&order=relevance&safe_search=1&serie_id=457665662&search_page=1&search_type=see-more&get_facets=0&asset_id=505051668
+https://stock.adobe.com/fr/search?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bcontent_type%3Aaudio%5D=0&filters%5Bcontent_type%3Aimage%5D=1&filters%5Binclude_stock_enterprise%5D=0&filters%5Bis_editorial%5D=0&order=relevance&safe_search=1&serie_id=457665662&limit=100&search_page=4&search_type=pagination&get_facets=0&asset_id=384072369
+
+
+
+*/
+
+body{
+    margin: 0px;
+    padding:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #EDEDED;
+    font-size: 1rem;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+Nav img{
+    margin-right: 20px;
+}
+Nav{
+    margin: auto;
+    width: 80%;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    height: 45px;
+    align-items: center;
+    background-color: #b9b9b96c;
+    box-shadow: 10px 5px 5px rgb(207, 207, 207);
+}
+
+Nav img{
+    margin-left: 10px;
+    width: 7rem;
+}
+
+Nav a{
+    text-decoration: none;
+    margin-left: 35px;
+    color: rgb(49, 49, 49);
+}
+Nav a:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.08);
+}
+
+.ncbuttun{
+    border: solid 1px #1A1A1A;
+    color: #1A1A1A;
+    border-radius: 10px;
+    padding: 7px;
+    background: #d094e9;
+    transition: transform .1s;
+    text-decoration: none;
+}
+.nccbuttun{
+    margin-top: 40px;
+    text-decoration: none;
+    color: #1A1A1A;
+    border: solid 1px #1A1A1A;
+    border-radius: 15px;
+    padding: 7px;
+    background: #d094e9;
+    transition: transform .1s;
+}
+.ncbuttun:hover{
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.5);
+    transform: scale(1.05);
+    }
+.nccbuttun:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.05);
+}
+
+#main{
+    display: flex;
+    margin-top: 15vh;
+    justify-content: center;
+}
+
+.p1 {
+    font-size: 40px;
+}
+#surline{
+    border: solid 1px #d094e9;
+    padding-bottom: -1px;
+    padding-left: 2px;
+    border-radius: 1px;
+    background: #d094e9;
+}
+.p2 {
+    font-size: 25px;
+}
+.p2NC{
+    font-size: 35px;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.avisf{
+display: flex;
+}
+
+.conseildiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conseildiv div span{
+    background-color: #d094e9;
+    pad: 4px;
+}
+
+.designdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.flexdiv{
+    display: flex;
+    flex-direction: column;
+}
+.p2D{
+    font-size: 25px;
+    align-self: flex-end;
+}
+.devdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    background-color: #d094e9;
+}
+
+.marketingdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tarif */
+.price{
+    background-color: #d094e9;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pricebox{
+display: flex;
+justify-content: center;
+}
+.carrousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70rem;
+    margin-bottom: 25px;
+}
+
+.ptarif{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+h3{
+    border-bottom: 2px solid #d094e9;
+    padding-bottom: 10px;
+}
+.vitrine{
+    padding: 10px 10px 30px 10px;
+    background-color: #EDEDED;
+    width: 15rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.e-commerce{
+    padding: 10px 10px 40px 10px;
+    border-radius: 10px;
+    width: 15rem;
+    background-color: #EDEDED;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.entreprise{
+    padding: 10px 10px 40px 10px;
+    border-radius: 10px;
+    width: 15rem;
+    background-color: #EDEDED;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.personaliser{
+    padding: 10px 10px 40px 10px;
+    border-radius: 10px;
+    width: 15rem;
+    background-color: #EDEDED;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+footer p{
+    margin-left: 2em;
+}
+
+
+
+
+/* Taille des ecran (responsive)*/
+@media (max-width: 1425px) {
+    Nav{
+        width: 855px;
+        padding-left: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        margin-top: 30px;
+        border-radius: 10px;
+        display: flex;
+        height: 45px;
+        align-items: center;
+        background-color: #b9b9b96c;
+        box-shadow: 10px 5px 5px rgb(207, 207, 207);
+    }
+}
+
+h4{
+    margin: 0; 
+}
+h6{
+    margin: 0;
+}
+.avis{
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    background: #d094e9;
+    width: 25vw;
+    margin: 2.5vw;
+    padding: 15px;
+}
+#avisname{
+    display: flex;
+    justify-content:space-between;
+}
+.starimg{
+    height: 3rem;
+    margin-top: 10px;
+}
+.thumb {
+    max-height: 150px;
+}
+#thumblist {
+    text-align: left;
+    border-radius: 8px;
+}
+#thumblist img {
+    border-radius: 8px;
+    color: #d094e9;
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.8);
+}
+.lightbox img {
+    max-width: 80%;
+    max-height: 90%;
+    text-align: center;
+    margin-top: 2%;
+}
+.lightbox:target {
+    outline: none;
+    display: block;
+}
+.previous {
+    background-color: #d094e9;
+    position: fixed;
+    left: 4px;
+    top: 40%;
+    width: 40px;
+}
+.exit {
+    background-color: #d094e9;
+    position: fixed;
+    top: 4px;
+    right: 4px;
+    width: 40px;
+}
+.next {
+    background-color: #d094e9;
+    position: fixed;
+    right: 4px;
+    top: 40%;
+    width: 40px;
+}
+
+#ncbgc{
+    background: #d094e9;
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 1020px;
+    border-radius: 8px;
+}
+
+#ncgauche form{
+    width: 350px;
+    border-right: 4px solid #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-right: 20px;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+select{
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #f06292; /* Rose/Violet pâle */
+    color: #fff; /* Texte blanc */
+    border: none;
+    cursor: pointer;
+}
